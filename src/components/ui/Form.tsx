@@ -32,8 +32,6 @@ const Form = forwardRef<FormHandle, FormProps>(function Form({ onSave, children,
     const formData = new FormData(event.currentTarget);
     const data = Object.fromEntries(formData);
     onSave(data);
-
-    formRef.current?.reset();
   }
 
   return (
