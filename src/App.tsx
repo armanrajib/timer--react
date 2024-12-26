@@ -8,13 +8,8 @@ function App() {
       <Input id="age" label="Your age" type="number" />
 
       <div style={{ display: "flex", gap: "1rem" }}>
-        <Button el="button" type="submit">
-          Submit
-        </Button>
-
-        <Button el="anchor" href="https://reactjs.org">
-          Learn more
-        </Button>
+        <Button>Submit</Button>
+        <Button href="https://reactjs.org">Learn more</Button>
       </div>
     </main>
   );
